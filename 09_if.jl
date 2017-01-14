@@ -1,6 +1,6 @@
 function mysqrt(x::Float64)
 	if x < 0
-		strcat(mysqrt(-x), "i")
+		string(mysqrt(-x), "i")
 	else
 		string(sqrt(x))
 	end
