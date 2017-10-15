@@ -1,13 +1,12 @@
 type FooBar
+    spam::Char
 	foo::Int64
 	bar::String
 end
 
-a = FooBar(12, "Days")
+a = FooBar('B', 12, "Days")
 
-# Show first field
+println(a.spam)
 println(getfield(a, :foo))
-
-# And second field with alternative syntax
-println(a.(:bar))
+println(getfield(a, 3))
 
