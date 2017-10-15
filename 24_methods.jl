@@ -1,4 +1,4 @@
-type Vertex
+struct Vertex
 	x::Float64
 	y::Float64
 end
