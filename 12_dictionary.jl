@@ -1,4 +1,4 @@
-type Vertex
+struct Vertex
 	lat::Float64
 	long::Float64
 end

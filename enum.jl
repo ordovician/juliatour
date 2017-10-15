@@ -12,3 +12,4 @@ end
 
 println(describe(monday))
 println(describe(tuesday))
+println(describe(wednesday))

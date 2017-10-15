@@ -1,4 +1,4 @@
-type FooBar
+struct FooBar
     spam::Char
 	foo::Int64
 	bar::String
